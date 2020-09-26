@@ -1,5 +1,5 @@
 # template-url-middleware
-Middleware for *Express.js* framework that provides current request URL as property to render engine. So it can be accessed in any template without passing it in each `response.render()` call
+Middleware for *Express* framework that provides current request URL as property to render engine. So it can be accessed in any template without passing it in each `response.render()` call
 
 ## Example
 Lets assume we have `app.js` file with application and a `view` directory with file `home.ejs` (or you can use any other template engine)
