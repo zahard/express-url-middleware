@@ -1,8 +1,10 @@
 # template-url-middleware
 Middleware for *Express* framework that provides current request URL as property to render engine. So it can be accessed in any template without passing it in each `response.render()` call
 
+## Install
+`npm i template-url-middleware --save`
+
 ## Example
-First npm package should be installed `npm i template-url-middleware --save` 
 Lets assume we have `app.js` file with application and a `view` directory with file `home.ejs` (or you can use any other template engine)
 
 ```js
